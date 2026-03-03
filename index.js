@@ -14,9 +14,6 @@ app.use(cors({
   origin: [
     'http://127.0.0.1:5500',
     'http://localhost:3000',
-    'http://localhost:5000',
-    'https://tiki-react-ev76xp2r2-apocalypsed2812s-projects.vercel.app',
-    'https://tiki-react-sepia.vercel.app',
     'https://sneaker-react.vercel.app'
   ],
   methods: ['GET','POST','PUT','DELETE','OPTIONS'],
