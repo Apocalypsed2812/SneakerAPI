@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 5000
 // app.use(cors())
 app.use(cors({
   origin: [
+    'http://localhost',
     'http://127.0.0.1:5500',
     'http://localhost:3000',
     'https://sneaker-react.vercel.app'
@@ -30,7 +31,7 @@ const options = {
         },
         servers: [
             {
-                url: "http://localhost:5000"
+                url: "https://sneakerapi-94jz.onrender.com"
             }
         ],
     },
